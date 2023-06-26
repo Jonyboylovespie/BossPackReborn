@@ -4,6 +4,8 @@
 </a>
 
 <h1 align="center">Boss Pack Reborn</h1>
-Adds 5 new bosses and reworks the 5 bosses from Boss Pack. With the help of Boss Integration, all the details are now in-game.
+Adds 5 new bosses and reworks the 5 bosses from Boss Pack. 
+
+With the help of Boss Integration, all the details are now in-game.
 
 [Requires Boss Integration](https://github.com/WarperSan/BossIntegration/releases/latest/download/BossIntegration.dll)
