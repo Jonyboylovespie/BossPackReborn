@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>BossPackReborn</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>BossPackReborn</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+	<ItemGroup>
+		<None Remove="Images\Cever\Cever-Icon.png" />
+		<None Remove="Images\Cever\Cever.png" />
+		<None Remove="Images\Damnaticum\Damnaticum-Icon.png" />
+		<None Remove="Images\Damnaticum\Damnaticum.png" />
+		<None Remove="Images\Despectus\Despectus-Icon.png" />
+		<None Remove="Images\Despectus\Despectus.png" />
+		<None Remove="Images\Etdb\Etdb-Icon.png" />
+		<None Remove="Images\Etdb\Etdb.png" />
+		<None Remove="Images\Flame\Flame-Icon.png" />
+		<None Remove="Images\Flame\Flame.png" />
+		<None Remove="Images\Icon.png" />
+		<None Remove="Images\Motus\Motus-Icon.png" />
+		<None Remove="Images\Motus\Motus.png" />
+		<None Remove="Images\Ninja\Ninja-Icon.png" />
+		<None Remove="Images\Ninja\Ninja.png" />
+		<None Remove="Images\Old Bloonarius\OldBloonarius-Icon.png" />
+		<None Remove="Images\Old Bloonarius\OldBloonarius.png" />
+		<None Remove="Images\Old Vortex\OldVortex-0.png" />
+		<None Remove="Images\Old Vortex\OldVortex-1.png" />
+		<None Remove="Images\Old Vortex\OldVortex-2.png" />
+		<None Remove="Images\Old Vortex\OldVortex-3.png" />
+		<None Remove="Images\Old Vortex\OldVortex-Icon.png" />
+		<None Remove="Prince-Icon.png" />
+		<None Remove="Prince.png" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="BossIntegration">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BloonsTD6\Mods\BossIntegration.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Images\Old DreadBloon\" />
+	</ItemGroup>
+
+    <Import Project="..\btd6.targets" />
+</Project>
