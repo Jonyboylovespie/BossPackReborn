@@ -162,11 +162,7 @@ internal class Flame : ModBoss
     }
 
     public override IEnumerable<string> DamageStates => new string[] { };
-    public override void OnSpawn(Bloon bloon)
-    {
-        base.OnSpawn(bloon);
-        bloon.trackScale = 2;
-    }
+    
     public class FlameDisplay : ModBloonDisplay<Flame>
     {
         public override string BaseDisplay => ModDisplay.Generic2dDisplay;

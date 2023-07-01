@@ -135,7 +135,7 @@ internal class ETDB : ModBoss
     public override void OnSpawn(Bloon bloon)
     {
         base.OnSpawn(bloon);
-        bloon.trackScale = 3;
+        bloon.trackScale = 2;
     }
     public class EtdbDisplay : ModBloonDisplay<ETDB>
     {

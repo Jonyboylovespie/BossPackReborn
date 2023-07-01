@@ -24,7 +24,6 @@ internal class OldDreadBloon : ModBoss
 
     public Dictionary<ObjectId, TowerSet[]> Weaknesses = new();
 
-
     public override void ModifyBaseBloonModel(BloonModel bloonModel)
     {
         base.ModifyBaseBloonModel(bloonModel);
@@ -61,7 +60,6 @@ internal class OldDreadBloon : ModBoss
 
     public override void SkullEffect(Bloon boss)
     {
-        
 
     }
 

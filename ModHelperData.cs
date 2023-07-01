@@ -3,13 +3,15 @@
 public static class ModHelperData
 {
     public const string WorksOnVersion = "37.0";
-    public const string Version = "1.0.0";
+    public const string Version = "1.0.1";
     public const string Name = "Boss Pack Reborn";
 
     public const string Description = "This mod adds multiple bosses with their own mechanic.\n\nAll possible? Let find out!\n\nRequires BossIntegration!!!";
 
     public const string RepoOwner = "WarperSan";
     public const string RepoName = "BossPackReborn";
+
+    public const string Dependencies = "WarperSan/BossIntegration";
 }
 
 /*

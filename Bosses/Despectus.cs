@@ -126,7 +126,7 @@ internal class Despectus : ModBoss
                 break;
         }
 
-        
+
     }
 
     public override void TimerTick(Bloon boss)
@@ -160,6 +160,8 @@ internal class Despectus : ModBoss
         base.OnSpawn(bloon);
         bloon.trackScale = 3;
     }
+
+    public override IEnumerable<string> DamageStates => new string[] { };
 
     public class DespectusDisplay : ModBloonDisplay<Despectus>
     {
