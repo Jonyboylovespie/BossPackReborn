@@ -125,7 +125,7 @@ internal class OldVortex : ModBoss
             if (towers.Count == 0)
                 break;
 
-            TowerFreezeMutator stun = new TowerFreezeMutator(new Il2CppAssets.Scripts.Utils.PrefabReference("289f511b736a06a4c993b9e0e73d2b8a"), true);
+            TowerFreezeMutator stun = new TowerFreezeMutator("Freeze", new Il2CppAssets.Scripts.Utils.PrefabReference("289f511b736a06a4c993b9e0e73d2b8a"), true);
             int rdmIndex = BossPack.rng.Next(0, towers.Count);
 
             towers[rdmIndex].AddMutator(stun, roundsRemaining: rounds);

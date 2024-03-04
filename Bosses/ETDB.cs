@@ -126,9 +126,9 @@ internal class ETDB : ModBoss
     const float gain = 0.0075f;
     public override void TimerTick(Bloon boss)
     {
-        boss.health = boss.health + boss.bloonModel.maxHealth * gain > boss.bloonModel.maxHealth ?
+        boss.health = (int)(boss.health + boss.bloonModel.maxHealth * gain > boss.bloonModel.maxHealth ?
             boss.bloonModel.maxHealth :
-            boss.health + boss.bloonModel.maxHealth * gain;
+            boss.health + boss.bloonModel.maxHealth * gain);
     }
 
     public override IEnumerable<string> DamageStates => new string[] { };

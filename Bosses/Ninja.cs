@@ -102,7 +102,7 @@ internal class Ninja : ModBoss
     public override string SkullDescription => "Stuns for 2 min (1 min for paragons) the most expensive tower that isn't a farm, a village and isn't already stunned.";
     public override void SkullEffect(Bloon boss)
     {
-        TowerFreezeMutator stun = new TowerFreezeMutator(new Il2CppAssets.Scripts.Utils.PrefabReference(), true);
+        TowerFreezeMutator stun = new TowerFreezeMutator("Freeze", new Il2CppAssets.Scripts.Utils.PrefabReference(), true);
         List<Tower> towers = InGame.instance.GetTowerManager().GetTowers().ToList();
 
         // If no tower
